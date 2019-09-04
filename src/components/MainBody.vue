@@ -15,42 +15,42 @@ export default {
 </script>
 
 <style lang="scss">
-.mainBody {
-    margin-top: 150px;
-}
-
-.titleUsd{
-    font-weight: 300;
-    color: #003358;
-    font-size: 52px;
-}
-.txtSub {
-    font-size: 18px;
-    line-height: 32px;
-    text-align: center;
-    letter-spacing: 0.015em;
-    color: #585858;
-    opacity: 0.8;
-    span {
-        background: #EFEFEF;
-        border: 1px solid #BEBEBE;
-        box-sizing: border-box;
-        border-radius: 8px;
-        padding: 6px 10px;
+    .mainBody {
+        margin-top: 150px;
     }
-}
-@media screen and (max-width: 629px){
-    .titleUsd {
-       font-size: 40px;
-       margin: 0 3%;
+
+    .titleUsd{
+        font-weight: 300;
+        color: #003358;
+        font-size: 52px;
     }
     .txtSub {
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.015em;
+        color: #585858;
+        opacity: 0.8;
+        span {
+            background: #EFEFEF;
+            border: 1px solid #BEBEBE;
+            box-sizing: border-box;
+            border-radius: 8px;
+            padding: 6px 10px;
+        }
+    }
+    @media screen and (max-width: 629px){
+        .titleUsd {
+        font-size: 40px;
         margin: 0 3%;
+        }
+        .txtSub {
+            margin: 0 3%;
+        }
     }
-}
-@media screen and (max-width: 329px){
-    .mainBody {
-        margin-top: 110px;
+    @media screen and (max-width: 329px){
+        .mainBody {
+            margin-top: 110px;
+        }
     }
-}
 </style>
